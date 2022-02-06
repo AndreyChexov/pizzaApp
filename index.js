@@ -43,8 +43,6 @@ btn.addEventListener('click', () => {
                    
                     newItem.innerHTML = ``;
                     newPeople.innerHTML = `${item.name}`;
-                    
-                 
                 }
                 
             })
