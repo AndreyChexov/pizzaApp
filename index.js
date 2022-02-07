@@ -19,6 +19,7 @@ btn.addEventListener('click', () => {
             
             app.style.display = 'none';
             
+          
             data.party.map(item => {
                 
             
@@ -48,4 +49,5 @@ btn.addEventListener('click', () => {
             })
            
 })
+                .catch(alert('Something broken :('))
 })
