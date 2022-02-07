@@ -49,5 +49,5 @@ btn.addEventListener('click', () => {
             })
            
 })
-                .catch(alert('Something broken :('))
+                .catch()
 })
